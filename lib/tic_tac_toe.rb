@@ -120,7 +120,7 @@ def winner
 end 
 
 def play
-  if over? == false
+  unless over? == false
   turn
 elsif over? == true && 
 draw? == true
