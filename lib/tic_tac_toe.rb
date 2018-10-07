@@ -120,9 +120,9 @@ def winner
 end 
 
 def play
-  unless over? == false
+  if over? == false
   turn
-if over? == true && 
+elsif over? == true && 
 draw? == true
 puts "Cat's Game!"
 elsif won? == "X"
@@ -130,7 +130,7 @@ puts "Congratulations X!"
 elsif won? == "O"
 puts "Congratulations O!"
 end
-end
+
 end 
   
   
