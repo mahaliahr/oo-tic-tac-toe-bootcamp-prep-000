@@ -122,7 +122,7 @@ end
 def play
   unless over? == false
   turn
-elsif over? == true && 
+if over? == true && 
 draw? == true
 puts "Cat's Game!"
 elsif won? == "X"
