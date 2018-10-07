@@ -120,9 +120,9 @@ def winner
 end 
 
 def play
-  unless over? == false
+  until over? == false
   turn
-end
+end 
 if over? == true && 
 draw? == true
 puts "Cat's Game!"
