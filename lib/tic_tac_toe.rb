@@ -122,6 +122,7 @@ end
 def play
   unless over? == false
   turn
+end
 if over? == true && 
 draw? == true
 puts "Cat's Game!"
