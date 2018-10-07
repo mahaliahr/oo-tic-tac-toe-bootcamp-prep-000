@@ -120,17 +120,19 @@ def winner
 end 
 
 def play
-  if over? == false
+  until over? == true ||
+  won? == !false ||
+  draw? == true ||
   turn
-elsif over? == true && 
+end
+  
+  if over? == true && 
 draw? == true
 puts "Cat's Game!"
-elsif won? == "X"
+elsif winner == "X"
 puts "Congratulations X!"
-elsif won? == "O"
+elsif winner == "O"
 puts "Congratulations O!"
-end
-
 end 
   
   
